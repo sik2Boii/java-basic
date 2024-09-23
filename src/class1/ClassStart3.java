@@ -7,6 +7,8 @@ public class ClassStart3 {
         student1 = new Student();
         // new Student(); 로 객체를 생성하면 메모리 어디에 생성되어 있는지 모르기 때문에 참조 값을 보관함
         // student1 = x001 -> 인스턴스 참조 값(메모리 주소)을 보관
+
+        // x001의 객체의 해당 값에 저장
         student1.name = "학생1";
         student1.age = 15;
         student1.grade = 90;
