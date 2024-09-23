@@ -16,4 +16,14 @@ public class MemberConstruct {
         this.age = age;
         this.grade = grade;
     }
+
+    // 생성자 오버로딩
+    MemberConstruct(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//        this.grade = 50;
+        // this()를 사용해 생성자 내부에서 다른 생성자를 호출할 수 있음
+        // this()는 생성자 코드의 첫 줄에만 사용이 가능함
+        this(name, age, 50);
+    }
 }
